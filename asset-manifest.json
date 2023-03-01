@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/idevassy-acs-1320-final/static/css/main.07ce6484.css",
+    "main.js": "/idevassy-acs-1320-final/static/js/main.0b5e020d.js",
+    "static/js/787.6c3fc4bb.chunk.js": "/idevassy-acs-1320-final/static/js/787.6c3fc4bb.chunk.js",
+    "index.html": "/idevassy-acs-1320-final/index.html",
+    "main.07ce6484.css.map": "/idevassy-acs-1320-final/static/css/main.07ce6484.css.map",
+    "main.0b5e020d.js.map": "/idevassy-acs-1320-final/static/js/main.0b5e020d.js.map",
+    "787.6c3fc4bb.chunk.js.map": "/idevassy-acs-1320-final/static/js/787.6c3fc4bb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.07ce6484.css",
+    "static/js/main.0b5e020d.js"
+  ]
+}
