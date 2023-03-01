@@ -1,0 +1,12 @@
+.Like {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150px;
+}
+
+.count {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(198, 169, 255);
+}

@@ -1,0 +1,20 @@
+h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(198, 169, 255);
+}
+
+.details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    text-shadow: aqua 0 0 20px;
+}
