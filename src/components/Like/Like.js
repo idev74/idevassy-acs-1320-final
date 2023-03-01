@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './Like.css';
 
 export default function Like() {
     const [count, setCount] = useState(0);

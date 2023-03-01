@@ -1,4 +1,5 @@
-import MetalMeta from "./MetalMeta";
+import MetalMeta from "../MetalMeta";
+import './Heading.css'
 
 export default function Heading() {
     return (

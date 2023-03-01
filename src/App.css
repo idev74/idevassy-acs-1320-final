@@ -1,29 +1,3 @@
 * {
   background-color: rgb(7, 5, 5);
 }
-
-h1, p{
-  color: white;
-}
-
-.BandList  {
-  width: 400px;
-  height: 400px;
-  margin: auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  max-width: 1600px;
-  /* padding: em; */
-  border: 2px solid white;
-  justify-content: center;
-
-}
-
-input {
-  background-color: white;
-}
-
-button {
-  background-color: rgb(16, 102, 102);
-  border-radius: 4px;
-}

@@ -1,0 +1,53 @@
+.BandList {
+    width: 300px;
+    height: 500px;
+    min-width: auto;
+    min-height: auto;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1600px;
+    padding: 0 20px;
+    border: 2px solid white;
+    justify-content: center;
+    font-size: calc(10px + 0.5vmin);
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 5px;
+}
+
+.search input {
+    width: 50%;
+    height: 20px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    background-color: white;
+}
+
+.input {
+    width: 200%;
+}
+
+li {
+    margin: 10px 0;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(183, 255, 0);
+}
+
+h1,
+p {
+    color: white;
+}
+
+button {
+    background-color: rgb(16, 102, 102);
+    border-radius: 4px;
+  }
