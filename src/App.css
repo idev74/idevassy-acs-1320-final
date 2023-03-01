@@ -6,14 +6,24 @@ h1, p{
   color: white;
 }
 
-.BandList {
-  width: calc(100% - 80px);
+.BandList  {
+  width: 400px;
+  height: 400px;
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 2em;
   max-width: 1600px;
-  padding: 2em;
-  border-color: white;
-  border-width: 2px;
+  /* padding: em; */
+  border: 2px solid white;
+  justify-content: center;
+
+}
+
+input {
+  background-color: white;
+}
+
+button {
+  background-color: rgb(16, 102, 102);
+  border-radius: 4px;
 }

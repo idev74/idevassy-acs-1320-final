@@ -1,6 +1,5 @@
 import './App.css';
 import Heading from './components/Heading';
-// import Band from './components/Band';
 import BandList from './components/BandList';
 
 function App() {

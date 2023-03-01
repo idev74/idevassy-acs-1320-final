@@ -1,23 +1,30 @@
 import React, { useState } from "react";
 import data from '../metal.json';
 import Band from './Band';
+import Like from "./Like";
 
 export default function BandList() {
     const [query, setQuery] = useState('')
+    // const styles = bands.style.split(',');
     const bands = data
         .filter(obj => obj.band_name.toLowerCase().includes(query.toLowerCase()) || obj.formed.toLowerCase().includes(query.toLowerCase()))
-        .map(({ band_name, formed, origin, fans }) => {
+        .map(({ band_name, formed, origin, fans, style, split }) => {
             return (
-                <Band
-                    band_name={band_name}
-                    formed={formed}
-                    origin={origin}
-                    fans={fans}
-                />
+                <div className="BandList">
+                    <Band
+                        key={band_name}
+                        band_name={band_name}
+                        formed={formed}
+                        origin={origin}
+                        fans={fans * 1000}
+                        style={split === "-" ? `Split: ${split}` : { style }}
+                    />
+                    <Like />
+                </div>
             )
         })
     return (
-        <div className="BandList">
+        <div className="temp">
             <form>
                 <input
                     value={query}
@@ -26,7 +33,9 @@ export default function BandList() {
                 />
                 <button type="submit">Search</button>
             </form>
-            {bands}
+            <div className="BandList">
+                {bands}
+            </div>
         </div>
     )
 }
